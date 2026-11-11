@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Synthetic evidence logs are project data, not application logs
+!evidence/*.log

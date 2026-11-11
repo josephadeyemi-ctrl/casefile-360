@@ -1,0 +1,2 @@
+# Keep evidence byte-for-byte identical on every machine, so SHA-256 hashes match MANIFEST.csv
+evidence/** -text
