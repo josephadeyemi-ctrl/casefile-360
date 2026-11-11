@@ -1,0 +1,87 @@
+[
+  {
+    "timestamp": "2026-03-10T07:03:10Z",
+    "mailbox": "a.okafor@nexacore.example",
+    "operation": "MailItemsAccessed",
+    "client_ip": "203.0.113.10",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
+    "item_count": 6,
+    "folder": "Inbox"
+  },
+  {
+    "timestamp": "2026-03-10T07:27:44Z",
+    "mailbox": "a.okafor@nexacore.example",
+    "operation": "Send",
+    "client_ip": "203.0.113.10",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
+    "to": "t.adeyemi@nexacore.example",
+    "subject": "March payables - draft schedule"
+  },
+  {
+    "timestamp": "2026-03-10T08:20:35Z",
+    "mailbox": "a.okafor@nexacore.example",
+    "operation": "MailItemsAccessed",
+    "client_ip": "203.0.113.10",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
+    "item_count": 1,
+    "folder": "Inbox",
+    "subject": "Urgent Invoice Payment - INV-2026-0312"
+  },
+  {
+    "timestamp": "2026-03-10T08:37:30Z",
+    "mailbox": "a.okafor@nexacore.example",
+    "operation": "New-InboxRule",
+    "client_ip": "198.51.100.140",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    "rule_name": "RSS Subscriptions",
+    "conditions": {
+      "subject_or_body_contains": [
+        "Brightline",
+        "invoice",
+        "payment"
+      ]
+    },
+    "actions": {
+      "move_to_folder": "RSS Feeds",
+      "mark_as_read": true
+    }
+  },
+  {
+    "timestamp": "2026-03-10T08:41:03Z",
+    "mailbox": "a.okafor@nexacore.example",
+    "operation": "MailItemsAccessed",
+    "client_ip": "198.51.100.140",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    "item_count": 14,
+    "folder": "Inbox",
+    "search_query": "Brightline OR invoice OR bank details"
+  },
+  {
+    "timestamp": "2026-03-10T08:52:36Z",
+    "mailbox": "a.okafor@nexacore.example",
+    "operation": "Send",
+    "client_ip": "198.51.100.140",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    "to": "t.adeyemi@nexacore.example",
+    "subject": "Updated bank details for Brightline Logistics - INV-2026-0312",
+    "body_preview": "Hi Tunde, Brightline have changed their bank. New details: Meridian Trust Bank, account ending 4471. INV-2026-0312 for NGN 18,450,000 is due today, please update the supplier record so we can release it before 12."
+  },
+  {
+    "timestamp": "2026-03-10T08:53:10Z",
+    "mailbox": "a.okafor@nexacore.example",
+    "operation": "SoftDelete",
+    "client_ip": "198.51.100.140",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    "folder": "Sent Items",
+    "subject": "Updated bank details for Brightline Logistics - INV-2026-0312"
+  },
+  {
+    "timestamp": "2026-03-10T09:21:15Z",
+    "mailbox": "a.okafor@nexacore.example",
+    "operation": "Remove-InboxRule",
+    "client_ip": "203.0.113.10",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0",
+    "rule_name": "RSS Subscriptions",
+    "performed_by": "i.musa"
+  }
+]

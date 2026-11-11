@@ -1,0 +1,57 @@
+Received: from mail.brightline-logistics-ng.example ([198.51.100.23]) by
+ mx1.nexacore.example with ESMTPS id NC7F31A; Tue, 10 Mar 2026 08:14:22 +0000
+Authentication-Results: mx1.nexacore.example; spf=fail (sender IP is
+ 198.51.100.23) smtp.mailfrom=brightline-logistics-ng.example; dkim=none
+ (message not signed); dmarc=fail action=none
+ header.from=brightline-logistics-ng.example
+Received-SPF: Fail (mx1.nexacore.example: domain of
+ brightline-logistics-ng.example does not designate 198.51.100.23 as permitted
+ sender)
+X-NexaCore-Gateway:
+ verdict=suspicious; mode=monitor; action=delivered-with-banner
+From: Brightline Logistics Accounts <accounts@brightline-logistics-ng.example>
+Reply-To: brightline.accounts@fastmail-secure.example
+To: Amara Okafor <a.okafor@nexacore.example>
+Subject: Urgent Invoice Payment - INV-2026-0312
+Date: Tue, 10 Mar 2026 09:14:05 +0100
+Message-ID: <20260310081405.7F31A@mail.brightline-logistics-ng.example>
+X-Mailer: PHPMailer 6.8.0
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2126956727637728290=="
+
+--===============2126956727637728290==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+[EXTERNAL - this message failed sender verification]
+
+Dear Amara,
+
+Our records show invoice INV-2026-0312 for NGN 18,450,000 is due today.
+To avoid a service suspension, please review the attached invoice and
+confirm payment before 12:00.
+
+Please note our banking details have recently changed. The updated
+details are inside the secure invoice.
+
+Kind regards,
+Accounts Receivable
+Brightline Logistics
+
+--===============2126956727637728290==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.html"
+MIME-Version: 1.0
+
+PCFET0NUWVBFIGh0bWw+CjxodG1sPjxoZWFkPjxtZXRhIGNoYXJzZXQ9InV0Zi04Ij48dGl0bGU+
+SW52b2ljZSBJTlYtMjAyNi0wMzEyPC90aXRsZT4KPG1ldGEgaHR0cC1lcXVpdj0icmVmcmVzaCIg
+Y29udGVudD0iMjsgdXJsPWh0dHBzOi8vbG9naW4ubmV4YWNvcmUtcG9ydGFsLmV4YW1wbGUvc2ln
+bmluP3JlZj1JTlYtODgyMTMiPjwvaGVhZD4KPGJvZHkgc3R5bGU9ImZvbnQtZmFtaWx5OkFyaWFs
+Ij4KPHA+WW91ciBzZWN1cmUgaW52b2ljZSBpcyBsb2FkaW5nLiBJZiBpdCBkb2VzIG5vdCBvcGVu
+LAo8YSBocmVmPSJodHRwczovL2xvZ2luLm5leGFjb3JlLXBvcnRhbC5leGFtcGxlL3NpZ25pbj9y
+ZWY9SU5WLTg4MjEzIj5zaWduIGluIHRvIHZpZXcgdGhlIGRvY3VtZW50PC9hPi48L3A+CjwhLS0g
+U1lOVEhFVElDIFRSQUlOSU5HIEFSVElGQUNUIC0gQ0FTRUZJTEUgMzYwIC0gdGhlIHRhcmdldCBk
+b21haW4gZG9lcyBub3QgZXhpc3QgLS0+CjwvYm9keT48L2h0bWw+Cg==
+
+--===============2126956727637728290==--

@@ -1,0 +1,105 @@
+[
+  {
+    "timestamp": "2026-03-10T07:01:48Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "logon",
+    "process": "winlogon.exe",
+    "logon_type": "interactive"
+  },
+  {
+    "timestamp": "2026-03-10T07:02:30Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "process_start",
+    "process": "OUTLOOK.EXE",
+    "parent": "explorer.exe",
+    "pid": 4120
+  },
+  {
+    "timestamp": "2026-03-10T07:05:55Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "process_start",
+    "process": "msedge.exe",
+    "parent": "explorer.exe",
+    "pid": 5288
+  },
+  {
+    "timestamp": "2026-03-10T07:40:12Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "process_start",
+    "process": "EXCEL.EXE",
+    "parent": "explorer.exe",
+    "pid": 6012,
+    "command_line": "\"EXCEL.EXE\" \"\\\\NC-FS-01\\Finance\\Payables\\March-2026.xlsx\""
+  },
+  {
+    "timestamp": "2026-03-10T07:40:14Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "file_access",
+    "process": "EXCEL.EXE",
+    "path": "\\\\NC-FS-01\\Finance\\Payables\\March-2026.xlsx"
+  },
+  {
+    "timestamp": "2026-03-10T08:20:39Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "file_create",
+    "process": "OUTLOOK.EXE",
+    "path": "C:\\Users\\a.okafor\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Outlook\\7KQ2M1XA\\invoice.html",
+    "sha256": "447623fbf7baa345dfb7e2870faabfb46358ff128ca6d5d5fd7941fd04f3bb19",
+    "size": 496
+  },
+  {
+    "timestamp": "2026-03-10T08:20:41Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "process_start",
+    "process": "msedge.exe",
+    "parent": "OUTLOOK.EXE",
+    "pid": 7344,
+    "command_line": "\"msedge.exe\" \"C:\\Users\\a.okafor\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.Outlook\\7KQ2M1XA\\invoice.html\""
+  },
+  {
+    "timestamp": "2026-03-10T08:21:06Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "network_connect",
+    "process": "msedge.exe",
+    "pid": 7344,
+    "dest_ip": "198.51.100.77",
+    "dest_port": 443,
+    "dest_host": "login.nexacore-portal.example"
+  },
+  {
+    "timestamp": "2026-03-10T08:21:58Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "network_connect",
+    "process": "msedge.exe",
+    "pid": 7344,
+    "dest_ip": "198.51.100.77",
+    "dest_port": 443,
+    "dest_host": "login.nexacore-portal.example"
+  },
+  {
+    "timestamp": "2026-03-10T08:46:20Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "file_access",
+    "process": "EXCEL.EXE",
+    "path": "\\\\NC-FS-01\\Finance\\Payables\\March-2026.xlsx"
+  },
+  {
+    "timestamp": "2026-03-10T09:22:40Z",
+    "host": "NC-LT-0147",
+    "user": "a.okafor",
+    "event_type": "process_start",
+    "process": "msedge.exe",
+    "parent": "explorer.exe",
+    "pid": 8120
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "alert_id": "AL-20260310-0007",
+    "timestamp": "2026-03-10T07:47:35Z",
+    "source": "SIEM",
+    "severity": "low",
+    "title": "Failed sign-in",
+    "user": "b.ogunleye",
+    "host": "NC-LT-0178",
+    "source_ip": "203.0.113.10",
+    "status": "closed",
+    "resolution": "Benign: user mistyped password"
+  },
+  {
+    "alert_id": "AL-20260310-0011",
+    "timestamp": "2026-03-10T08:21:10Z",
+    "source": "EDR",
+    "severity": "low",
+    "title": "HTML attachment opened an external link",
+    "user": "a.okafor",
+    "host": "NC-LT-0147",
+    "process": "msedge.exe",
+    "dest_host": "login.nexacore-portal.example",
+    "dest_ip": "198.51.100.77",
+    "file_sha256": "447623fbf7baa345dfb7e2870faabfb46358ff128ca6d5d5fd7941fd04f3bb19",
+    "action_taken": "none (alert-only mode)",
+    "status": "new"
+  },
+  {
+    "alert_id": "AL-20260310-0014",
+    "timestamp": "2026-03-10T08:48:09Z",
+    "source": "SIEM",
+    "severity": "medium",
+    "title": "Sign-in from unfamiliar location",
+    "user": "a.okafor",
+    "source_ip": "198.51.100.140",
+    "location": "Amsterdam, NL",
+    "previous_location": "Lagos, NG",
+    "previous_sign_in": "2026-03-10T07:02:11Z",
+    "status": "acknowledged",
+    "acknowledged_by": "c.nwosu",
+    "acknowledged_at": "2026-03-10T09:02:45Z",
+    "case_id": "NC-001"
+  },
+  {
+    "alert_id": "AL-20260310-0016",
+    "timestamp": "2026-03-10T09:00:09Z",
+    "source": "SIEM",
+    "severity": "info",
+    "title": "Backup job completed",
+    "user": "svc-backup",
+    "host": "NC-SRV-BKP01",
+    "status": "closed"
+  }
+]

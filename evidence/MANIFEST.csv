@@ -1,0 +1,10 @@
+evidence_id,filename,sha256,size_bytes,description
+NC-001-E01,phishing-email.eml,8c34271b53fee4b2af1562d2fccf99ba382884da7d3618c2276202a9364b3469,2473,Phishing email with full headers and attachment
+NC-001-E02,invoice.html,447623fbf7baa345dfb7e2870faabfb46358ff128ca6d5d5fd7941fd04f3bb19,496,Attachment extracted from the phishing email
+NC-001-E03,authentication.log,e306a98ebc301644619781413811fb176e9666148d18f3809033082807ea3365,19858,"Sign-in and identity events, JSON Lines, UTC"
+NC-001-E04,dns.log,617ca8684ae72def72af8dd07c4b075706e955150f8100bbf127ca9a4a9cceb8,13110,"DNS resolver query log, UTC"
+NC-001-E05,browser-history.csv,464a002490e7705ecbbe42c5aee24fcb9fb5d4aafdf83bc7654a15bd4fac1440,1779,"Edge history from NC-LT-0147, UTC"
+NC-001-E06,endpoint-events.json,f392c803bdd70b1721768f07fa4d2c9083564c7703c84f8fb388783d91c72abd,2885,"EDR telemetry from NC-LT-0147, UTC"
+NC-001-E07,mailbox-audit.json,4f51f612638c7be6e2285650d0ffcf6b10e838a76f62e6422714fac45c6f8374,3370,"Mailbox audit log for a.okafor, UTC"
+NC-001-E08,security-alerts.json,e0efbe81e09fe5154a6ca4bc3b08f6a776d4a15827872823c667ac9359c40df7,1566,"SIEM and EDR alerts, UTC"
+NC-001-E09,analyst-notes.md,af119d904ba805bfa8897459f2016d9ae72dac3f8871dc8b2e82ce91643a2fd8,642,"Interview notes taken during the response, WAT"

@@ -1,0 +1,13 @@
+visit_time_utc,user,host,browser,url,title,transition
+2026-03-10T07:03:02Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://outlook.office365.com/mail/,Mail - Amara Okafor - Outlook,typed
+2026-03-10T07:06:11Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://nexaledger.nexacore.example/dashboard,NexaLedger - Dashboard,typed
+2026-03-10T07:19:45Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://nexaledger.nexacore.example/payables/open,NexaLedger - Open payables,link
+2026-03-10T07:41:30Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://intranet.nexacore.example/finance/calendar,Finance calendar,link
+2026-03-10T08:03:12Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://www.brightline-logistics.example/track,Brightline Logistics - Track shipment,link
+2026-03-10T08:20:43Z,a.okafor,NC-LT-0147,Microsoft Edge 122,file:///C:/Users/a.okafor/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/7KQ2M1XA/invoice.html,Invoice INV-2026-0312,link
+2026-03-10T08:21:07Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://login.nexacore-portal.example/signin?ref=INV-88213,Sign in to your account,redirect
+2026-03-10T08:21:58Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://login.nexacore-portal.example/signin/verify,Signing in...,form_submit
+2026-03-10T08:22:01Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://login.nexacore-portal.example/error?code=440,Session expired,redirect
+2026-03-10T08:23:30Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://outlook.office365.com/mail/,Mail - Amara Okafor - Outlook,typed
+2026-03-10T08:46:02Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://nexaledger.nexacore.example/payables/open,NexaLedger - Open payables,link
+2026-03-10T09:23:15Z,a.okafor,NC-LT-0147,Microsoft Edge 122,https://login.microsoftonline.com/,Sign in to your account,typed
